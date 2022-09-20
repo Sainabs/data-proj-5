@@ -39,7 +39,7 @@ df.sort_values(["store_sales"],
 axis=0,
 ascending=[False],
 inplace=True)
-st.dataframe(df[['store_id','daily_customer_count']].head(n=10))
+st.dataframe(df[['store_id','store_sales']].head(n=10))
 # st.table(df[['store_id','store_sales']].head(n=10))
 
 
