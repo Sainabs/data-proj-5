@@ -1,10 +1,7 @@
 
-from re import X
-from this import s
 import streamlit as st
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
+
 
 
 title = st.title("Sainab's Admin Dashboard")
